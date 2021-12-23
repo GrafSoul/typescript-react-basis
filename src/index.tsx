@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import GuestList from "./state/GuestList";
 import UserSearch from "./state/UserSearch";
+import EventComponent from "./events/EventComponent";
 
 const App: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
 
       <GuestList />
       <UserSearch />
+      <EventComponent />
     </div>
   );
 };
