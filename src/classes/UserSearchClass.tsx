@@ -14,7 +14,7 @@ interface UserSearchState {
   user: User | undefined;
 }
 
-class UserSearch extends Component<UserSearchProps> {
+class UserSearchClass extends Component<UserSearchProps> {
   state: UserSearchState = {
     name: "",
     user: undefined,
@@ -48,4 +48,4 @@ class UserSearch extends Component<UserSearchProps> {
   }
 }
 
-export default UserSearch;
+export default UserSearchClass;
